@@ -463,8 +463,8 @@
   position: relative;
   overflow: hidden;
   border-radius: inherit;
+  width: 100%;
   aspect-ratio: 16 / 10;
-  height: 175px;
 }
 
 .legacy-content .team-area-v2 .img-holder img,
@@ -1057,9 +1057,13 @@
   box-shadow: var(--initiatives-shadow-hover);
 }
 
-.initiatives-premium-theme .initiatives-card .img-holder {
-  border-radius: 1.05rem 1.05rem 0 0;
-  overflow: hidden;
+.initiatives-premium-theme .initiatives-card .img-holder,
+.initiatives-card .img-holder {
+  width: 100% !important;
+  height: 230px !important;
+  aspect-ratio: auto !important;
+  border-radius: 1.05rem 1.05rem 0 0 !important;
+  overflow: hidden !important;
 }
 
 .initiatives-premium-theme
@@ -1069,13 +1073,17 @@
 .initiatives-premium-theme
   .initiatives-card
   .img-holder
+  video,
+.initiatives-card
+  .img-holder
+  img,
+.initiatives-card
+  .img-holder
   video {
-  width: 100%;
-  height: 230px;
-
-  display: block;
-
-  object-fit: cover;
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  object-fit: cover !important;
 }
 
 .initiatives-premium-theme .initiatives-card-text {
@@ -1299,10 +1307,11 @@
 /* Header */
 
 .recent-events-section .recent-events-header {
+  position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1140px;
 
-  margin: 0 auto 45px;
+  margin: 0 auto 40px;
 
   display: flex;
   flex-direction: column;
@@ -1335,7 +1344,7 @@
   align-items: center;
   justify-content: center;
 
-  margin: 0 auto 18px;
+  margin: 0 auto 16px;
 
   text-align: center;
 }
@@ -1368,14 +1377,16 @@
 
 .recent-events-section
   .recent-events-button-wrapper {
-  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 
-  margin-top: 25px;
+  margin-top: 0;
 
   display: flex;
 
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .recent-events-section
@@ -1411,6 +1422,29 @@
   float: none;
 }
 
+/* Card Image Sizing Fix - Matching user requested tall portrait/square size */
+
+.recent-events-section .portfolio-style-one {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.recent-events-section .portfolio-style-one .img-holder {
+  width: 100% !important;
+  height: 350px !important;
+  aspect-ratio: 1 / 1 !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+.recent-events-section .portfolio-style-one .img-holder img,
+.recent-events-section .portfolio-style-one .img-holder video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 16px !important;
+}
+
 /* =========================================================
    TABLET
    ========================================================= */
@@ -1443,6 +1477,10 @@
     .recent-events-header {
     width: 100%;
 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
     margin-bottom: 35px;
   }
 
@@ -1450,6 +1488,7 @@
     .recent-events-title {
     width: 100%;
     max-width: 100%;
+    text-align: center;
   }
 
   .recent-events-section
@@ -1461,6 +1500,7 @@
     padding: 0.78rem 1.55rem;
 
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .recent-events-section
@@ -1468,6 +1508,7 @@
     h2 {
     font-size: 32px;
     line-height: 1.2;
+    text-align: center;
   }
 
   .recent-events-section
@@ -1475,11 +1516,15 @@
     p {
     font-size: 15px;
     line-height: 1.6;
+    text-align: center;
   }
 
   .recent-events-section
     .recent-events-button-wrapper {
-    margin-top: 20px;
+    position: static;
+    width: 100%;
+    justify-content: center;
+    margin-top: 25px;
   }
 }
 
@@ -1572,4 +1617,29 @@
 
     letter-spacing: 0.11em !important;
   }
+}
+
+/* =========================================================
+   MEMBERSHIP DRIVE POSTER - FULL DISPLAY WITHOUT CROPPING
+   ========================================================= */
+
+.membership-poster-box {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background: rgba(10, 15, 30, 0.4);
+  box-shadow: 0 20px 45px -20px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-poster-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 1.25rem;
 }

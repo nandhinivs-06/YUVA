@@ -7,9 +7,13 @@ function MembershipSection() {
       <div className="container-1450" id="reg">
         <div className="cta-wrapper dark-blue-bg">
           <div className="row mt-50 justify-content-center align-items-center">
-            <div className="col-xl-6 col-lg-6 mb-50 portfolio-style-one" id="reg">
-              <div className="img-holder">
-                <img src="/assets/images/Registration/Membership(3).jpeg" alt="Img" />
+            <div className="col-xl-6 col-lg-6 mb-50" id="reg">
+              <div className="membership-poster-box">
+                <img
+                  src="/assets/images/Registration/Membership(3).jpeg"
+                  alt="Membership Drive Poster"
+                  className="membership-poster-img"
+                />
               </div>
             </div>
             <div className="col-xl-6 col-lg-6" id="register">

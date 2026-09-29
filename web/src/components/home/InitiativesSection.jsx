@@ -5,8 +5,6 @@ import { extraEventPages } from "../../data/extraEventPages.js"
 import { INITIATIVE_FILTERS } from "../../data/filters.js"
 import InitiativeCard from "./InitiativeCard.jsx"
 
-const allItems = [...portfolioItems, ...extraEventPages]
-
 const listVariants = {
   hidden: { opacity: 0 },
   show: {
@@ -31,6 +29,7 @@ function InitiativesSection({ id = "initiatives", showIntro = true, excludeSlugs
   const [filter, setFilter] = useState("*")
 
   const filtered = useMemo(() => {
+    const allItems = [...portfolioItems, ...extraEventPages]
     let list = filter === "*" ? allItems : allItems.filter((item) => item.categories?.includes(filter))
     if (excludeSlugs?.size) {
       list = list.filter((item) => !excludeSlugs.has(item.slug))

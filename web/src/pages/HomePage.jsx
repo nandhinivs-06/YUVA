@@ -14,10 +14,9 @@ import TestimonialSection from "../components/home/TestimonialSection.jsx"
 import InstagramFeed from "../components/home/InstagramFeed.jsx"
 import CuratorFeed from "../components/home/CuratorFeed.jsx"
 
-const allPortfolio = [...portfolioItems, ...extraEventPages]
-
 function HomePage() {
   const homeExcludeSlugs = useMemo(() => {
+    const allPortfolio = [...portfolioItems, ...extraEventPages]
     const recent = getRecentPortfolioItems(allPortfolio, RECENT_EVENTS_COUNT)
     return new Set(recent.map((item) => item.slug))
   }, [])

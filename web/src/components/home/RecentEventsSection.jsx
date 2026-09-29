@@ -7,13 +7,11 @@ import InitiativeCard from "./InitiativeCard.jsx"
 
 export const RECENT_EVENTS_COUNT = 6
 
-const allItems = [...portfolioItems, ...extraEventPages]
-
 function RecentEventsSection() {
-  const recent = useMemo(
-    () => getRecentPortfolioItems(allItems, RECENT_EVENTS_COUNT),
-    []
-  )
+  const recent = useMemo(() => {
+    const allItems = [...portfolioItems, ...extraEventPages]
+    return getRecentPortfolioItems(allItems, RECENT_EVENTS_COUNT)
+  }, [])
 
   return (
     <section

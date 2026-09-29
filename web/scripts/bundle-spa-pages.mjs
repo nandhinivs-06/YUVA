@@ -25,8 +25,12 @@ async function loadRouteMaps() {
 
 function buildEventRouteByFile(portfolioItems, extraEventPages) {
   const m = new Map()
-  for (const p of portfolioItems) m.set(p.file, `/events/${p.slug}`)
-  for (const p of extraEventPages) m.set(p.file, `/events/${p.slug}`)
+  for (const p of portfolioItems) {
+    if (p.file) m.set(p.file, `/events/${p.slug}`)
+  }
+  for (const p of extraEventPages) {
+    if (p.file) m.set(p.file, `/events/${p.slug}`)
+  }
   return m
 }
 

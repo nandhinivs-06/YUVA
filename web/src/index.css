@@ -108,14 +108,14 @@
 
 .premium-page-shell .section-title .sub-title.st-one {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   min-width: 13rem;
   min-height: 3.15rem;
   padding: 0.9rem 2.15rem;
-  margin: 0 auto 1rem;
+  margin: 0 auto 1.5rem;
   border-radius: 9999px;
   border: 1px solid #c8bdf5;
   color: #2d33a8;
@@ -547,6 +547,28 @@
   img {
   transform: scale(1.05);
   filter: saturate(1.08) contrast(1.02);
+}
+
+/* ==========================================================================
+   Accolades Page Poster Image Formatting Fix
+   ========================================================================== */
+.team-details-section .portfolio-style-one .img-holder,
+.team-details-section .img-holder {
+  aspect-ratio: auto !important;
+  height: auto !important;
+  border-radius: 1.25rem !important;
+  overflow: hidden !important;
+  box-shadow: 0 16px 40px -18px rgba(19, 32, 59, 0.2) !important;
+  background-color: #ffffff !important;
+}
+
+.team-details-section .portfolio-style-one .img-holder img,
+.team-details-section .img-holder img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  display: block !important;
 }
 
 /* =========================================================

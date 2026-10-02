@@ -20,10 +20,45 @@ function InjectedMainColumn({ title, html, afterInject, parallax = true }) {
     if (!root) return undefined
 
     const handleAnchorClick = (e) => {
-      const a = e.target.closest("a")
+      let a = e.target.closest("a")
+      if (!a) {
+        const holder = e.target.closest(".img-holder")
+        if (holder) {
+          a = holder.querySelector("a[href]")
+        }
+      }
       if (!a) return
       const href = a.getAttribute("href")
-      if (href && href.startsWith("/")) {
+      if (!href) return
+
+      if (
+        href.startsWith("mailto:") ||
+        href.startsWith("tel:") ||
+        href.startsWith("#") ||
+        href.startsWith("javascript:")
+      ) {
+        return
+      }
+
+      // Static asset & FlipBook paths bypass React Router SPA handling and navigate directly
+      const isStaticAsset =
+        href.includes("FlipBook") ||
+        href.includes("FlipBook1") ||
+        href.startsWith("/FlipBook") ||
+        href.startsWith("/FlipBook1") ||
+        href.startsWith("/assets") ||
+        /\.(html|pdf|png|jpg|jpeg|gif|svg|zip)(\?|#|$)/i.test(href)
+
+      if (
+        isStaticAsset ||
+        a.target === "_blank" ||
+        href.startsWith("http://") ||
+        href.startsWith("https://")
+      ) {
+        return
+      }
+
+      if (href.startsWith("/")) {
         // Handle SPA internal routes
         e.preventDefault()
         navigate(href)

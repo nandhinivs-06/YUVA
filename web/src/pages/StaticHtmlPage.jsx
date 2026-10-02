@@ -118,9 +118,9 @@ function StaticHtmlPage({ filename }) {
     return (
       <iframe
         title={page.title}
-        className="legacy-iframe block min-h-[90vh] w-full border-0"
+        className="legacy-iframe fixed inset-0 z-50 h-screen w-screen border-0 bg-white"
         srcDoc={pageHtml}
-        sandbox="allow-scripts allow-same-origin allow-popups"
+        sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
       />
     )
   }

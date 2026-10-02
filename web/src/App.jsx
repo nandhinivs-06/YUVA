@@ -73,6 +73,8 @@ function AppRoutes() {
       <ScrollToTop />
       <Routes>
         <Route path="/team" element={<TeamSpaPage />} />
+        <Route path="/annual-report" element={<StaticHtmlPage filename="AnnualReport23.html" />} />
+        <Route path="/yi-health" element={<StaticHtmlPage filename="YI Health report.html" />} />
         <Route element={<Layout />}>
           <Route
             path="/"
@@ -92,8 +94,6 @@ function AppRoutes() {
           <Route path="/registrations" element={<StaticHtmlPage filename="reg.html" />} />
           <Route path="/contact" element={<StaticHtmlPage filename="contact.html" />} />
           <Route path="/podcast" element={<StaticHtmlPage filename="podcast.html" />} />
-          <Route path="/annual-report" element={<StaticHtmlPage filename="AnnualReport23.html" />} />
-          <Route path="/yi-health" element={<StaticHtmlPage filename="YI Health report.html" />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

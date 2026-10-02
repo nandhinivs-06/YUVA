@@ -35,6 +35,8 @@ function rewriteLinks(html, portfolioItems, extraEventPages, htmlFileToRoute) {
   })
   s = s.replace(/\b(src|href)=(["'])(\.\.\/)*assets\//gi, "$1=$2/assets/")
   s = s.replace(/\baction=(["'])email\.php\1/gi, "action=$1/email.php$1")
+  s = s.replace(/href=(["'])FlipBook\//gi, "href=$1/FlipBook/")
+  s = s.replace(/href=(["'])FlipBook1\//gi, "href=$1/FlipBook1/")
   return s
 }
 

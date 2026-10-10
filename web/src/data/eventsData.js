@@ -1,5 +1,56 @@
 // Auto-generated comprehensive events dataset for React components
 export const eventsData = [
+
+  {
+    "slug": "smash-40",
+    "title": "Smash 4.0",
+    "file": "Event - Smash 4.0.html",
+    "originalFile": "Event - Smash 4.0.html",
+    "date": "22/02/2026",
+    "subtitleDate": "22nd February 2026",
+    "image": "/assets/images/Events/Smash 4.0/1.png",
+    "poster": "/assets/images/Events/Smash 4.0/poster.png",
+    "mediaType": "image",
+    "categories": [
+      "cat-5",
+      "cat-11"
+    ],
+    "breadcrumb": "Smash 4.0",
+    "paragraphs": [
+      "SMASH 4.0, a fundraiser and badminton tournament conducted by Yi YUVA REC on February 22, 2026, at LoveAll Badminton Academy, Mogappair, transformed the court into a high-octane arena for social impact, centered on amplifying vital awareness for Thalassemia. The event was distinguished by the inspiring presence of Ms. Parameswari Thiyagarajan, Influencer & Content Creator, who articulated her personal journey of resilience with Thalassemia to educate and empower our community through her unique digital narrative. The Yi Co-chair of YUVA, Ms. Suprabha Hosamane, graced the occasion, further elevating the spirit of the event. The tournament showcased elite athleticism across two categories,men’s doubles and mixed doubles with a formidable lineup of 124 teams with 248 participants, ensuring every rally resonated with a greater purpose. Prizes for the winners and runner-ups were awarded, celebrating both exceptional talent and unwavering commitment. By seamlessly weaving together athletic excellence and health advocacy, Yi YUVA REC bridged the gap between sports and social responsibility, proving that every smash can indeed ignite a life-changing cause."
+    ],
+    "meta": [
+      {
+        "label": "Vertical",
+        "value": "Sports & Health",
+        "icon": "/assets/images/icon/icon-7.png"
+      },
+      {
+        "label": "Target Audience",
+        "value": "Youth & Sports",
+        "icon": "/assets/images/icon/icon-9.png"
+      },
+      {
+        "label": "Cause",
+        "value": "Thalassemia Awareness",
+        "icon": "/assets/images/icon/icon-8.png"
+      }
+    ],
+    "gallery": [
+      "/assets/images/Events/Smash 4.0/1.png",
+      "/assets/images/Events/Smash 4.0/2.png",
+      "/assets/images/Events/Smash 4.0/3.png",
+      "/assets/images/Events/Smash 4.0/4.png",
+      "/assets/images/Events/Smash 4.0/5.png",
+      "/assets/images/Events/Smash 4.0/6.png",
+      "/assets/images/Events/Smash 4.0/7.png",
+      "/assets/images/Events/Smash 4.0/8.png"
+    ],
+    "prevPostTitle": "Teestories 1.0",
+    "nextPostTitle": "Empower - Ed",
+    "prevSlug": "teestories10",
+    "nextSlug": "empower-ed"
+  },
   {
     "slug": "empower-ed",
     "title": "Empower - Ed",
@@ -7,7 +58,7 @@ export const eventsData = [
     "originalFile": "Event - Empower - Ed.html",
     "date": "09/02/2026",
     "subtitleDate": "9th February 2026",
-    "image": "/assets/images/portfolio/Empower-Ed.png",
+    "image": "/assets/images/Events/Empower - Ed/1.png",
     "poster": "/assets/images/Events/Empower - Ed/poster.png",
     "mediaType": "image",
     "categories": [
@@ -56,7 +107,7 @@ export const eventsData = [
     "originalFile": "Event - Hands of Hope.html",
     "date": "12/01/2026",
     "subtitleDate": "12th January 2025",
-    "image": "/assets/images/portfolio/Hands of Hope.png",
+    "image": "/assets/images/Events/Hands of Hope/1.png",
     "poster": "/assets/images/Events/Hands of Hope/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -106,7 +157,7 @@ export const eventsData = [
     "originalFile": "Event - Yi Chennai Annual Day 2025.html",
     "date": "09/12/2025",
     "subtitleDate": "9th December 2025",
-    "image": "/assets/images/portfolio/Yi Annual Day 2025.png",
+    "image": "/assets/images/Events/Yi Annual day 2025/1.jpg",
     "poster": "/assets/images/Events/Yi Annual day 2025/Yi annual 2025 poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -155,7 +206,7 @@ export const eventsData = [
     "originalFile": "Event - Echoes Of Love.html",
     "date": "23/11/2025",
     "subtitleDate": "23th November 2025",
-    "image": "/assets/images/portfolio/Echoes of Love.png",
+    "image": "/assets/images/Events/Echoes Of Love/1.png",
     "poster": "/assets/images/Events/Echoes Of Love/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -204,7 +255,7 @@ export const eventsData = [
     "originalFile": "Event - Manadhin Mozhi.html",
     "date": "09/11/2025",
     "subtitleDate": "9th November 2025",
-    "image": "/assets/images/portfolio/Manadhin Mozhi.jpeg",
+    "image": "/assets/images/Events/Mandhin Mozhi/1.png",
     "poster": "/assets/images/Events/Mandhin Mozhi/Poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -253,7 +304,7 @@ export const eventsData = [
     "originalFile": "Event - Yuvaneta'25.html",
     "date": "13/10/2025",
     "subtitleDate": "13 October 2025",
-    "image": "/assets/images/portfolio/YUVANETA'25.jpeg",
+    "image": "/assets/images/Events/Yuvaneta'25/1.png",
     "poster": "/assets/images/Events/Yuvaneta'25/Poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -300,7 +351,7 @@ export const eventsData = [
     "originalFile": "Event - Chennai got talent 6.0.html",
     "date": "04/08/2025",
     "subtitleDate": "04 August 2025",
-    "image": "/assets/images/portfolio/CGT 6.0.png",
+    "image": "/assets/images/Events/CGT 6.0/1.png",
     "poster": "/assets/images/Events/CGT 6.0/poster.png",
     "mediaType": "image",
     "categories": [
@@ -347,7 +398,7 @@ export const eventsData = [
     "originalFile": "Event - First Responders.html",
     "date": "26/07/2025",
     "subtitleDate": "26th July 2025",
-    "image": "/assets/images/portfolio/First Responders.png",
+    "image": "/assets/images/Events/First Responders/1.png",
     "poster": "/assets/images/Events/First Responders/Poster.png",
     "mediaType": "image",
     "categories": [
@@ -396,7 +447,7 @@ export const eventsData = [
     "originalFile": "Event - Know and say no.html",
     "date": "10/07/2025",
     "subtitleDate": "10th July 2025",
-    "image": "/assets/images/portfolio/Know and say no.png",
+    "image": "/assets/images/Events/Know and say no/1.png",
     "poster": "/assets/images/Events/Know and say no/Poster.png",
     "mediaType": "image",
     "categories": [
@@ -445,7 +496,7 @@ export const eventsData = [
     "originalFile": "Event - Beyond Labels.html",
     "date": "28/06/2025",
     "subtitleDate": "28th of June 2025",
-    "image": "/assets/images/portfolio/Beyond Labels.png",
+    "image": "/assets/images/Events/Beyond Labels/1.png",
     "poster": "/assets/images/Events/Beyond Labels/poster.png",
     "mediaType": "image",
     "categories": [
@@ -494,7 +545,7 @@ export const eventsData = [
     "originalFile": "Event - Route Cause.html",
     "date": "11/05/2025",
     "subtitleDate": "11th May 2025",
-    "image": "/assets/images/portfolio/Route Cause Portfolio.png",
+    "image": "/assets/images/Events/Route Cause/Route Cause-01.png",
     "poster": "/assets/images/Events/Route Cause/Route Cause Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -543,7 +594,7 @@ export const eventsData = [
     "originalFile": "Event - Her Rhythm Within.html",
     "date": "03/05/2025",
     "subtitleDate": "3rd May 2025",
-    "image": "/assets/images/portfolio/Her Rhythm Within.png",
+    "image": "/assets/images/Events/Her Rhythm Within/1.png",
     "poster": "/assets/images/Events/Her Rhythm Within/poster.png",
     "mediaType": "image",
     "categories": [
@@ -594,7 +645,7 @@ export const eventsData = [
     "originalFile": "Event - Timeless Treasures.html",
     "date": "01/05/2025",
     "subtitleDate": "1st May 2025",
-    "image": "/assets/images/portfolio/Timeless Treasures Portfolio.png",
+    "image": "/assets/images/Events/Timeless Treasures/1.png",
     "poster": "/assets/images/Events/Timeless Treasures/Portfolio.jpg",
     "mediaType": "image",
     "categories": [
@@ -644,7 +695,7 @@ export const eventsData = [
     "originalFile": "Event - E - Cycle.html",
     "date": "23/04/2025",
     "subtitleDate": "23rd & 24th April 2025",
-    "image": "/assets/images/portfolio/e cycle portfolio picture.png",
+    "image": "/assets/images/Events/E cycle/2.jpg",
     "poster": "/assets/images/Events/E cycle/1.jpg",
     "mediaType": "image",
     "categories": [
@@ -693,7 +744,7 @@ export const eventsData = [
     "originalFile": "Event - Instolutions 3.0.html",
     "date": "21/04/2025",
     "subtitleDate": "21st April 2025",
-    "image": "/assets/images/portfolio/Instolutions 3.0 Portfolio.png",
+    "image": "/assets/images/Events/Instolutions 3.0/Instolutions 3.0 Gallery.png",
     "poster": "/assets/images/Events/Instolutions 3.0/Instolutions 3.0 Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -738,7 +789,7 @@ export const eventsData = [
     "originalFile": "Event - FinFluent.html",
     "date": "28/03/2025",
     "subtitleDate": "28th March 2025",
-    "image": "/assets/images/portfolio/FinFluent Portfolio.png",
+    "image": "/assets/images/Events/FinFluent/10.png",
     "poster": "/assets/images/Events/FinFluent/Finfluent Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -787,7 +838,7 @@ export const eventsData = [
     "originalFile": "Event - Smash 3.0.html",
     "date": "23/02/2025",
     "subtitleDate": "February 23rd 2025",
-    "image": "/assets/images/portfolio/Smash 3.0 Portfolio.png",
+    "image": "/assets/images/Events/Smash 3.0/9.png",
     "poster": "/assets/images/Events/Smash 3.0/Smash 3.0 Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -836,7 +887,7 @@ export const eventsData = [
     "originalFile": "Event - Republic Rhythms.html",
     "date": "26/01/2025",
     "subtitleDate": "26th January 2025",
-    "image": "/assets/images/portfolio/republic rhytms cover page 1.png",
+    "image": "/assets/images/Events/Republic Rhythms/1.jpg",
     "poster": "/assets/images/portfolio/Republic Rhythms.jpeg",
     "mediaType": "image",
     "categories": [
@@ -886,7 +937,7 @@ export const eventsData = [
     "originalFile": "Event - Akshaya Patra 4.0.html",
     "date": "08/12/2024",
     "subtitleDate": "8th December 2024",
-    "image": "/assets/images/portfolio/Akshayapatra4.0.png",
+    "image": "/assets/images/Events/Akshayapatra 4.0/1.png",
     "poster": "/assets/images/Events/Akshayapatra 4.0/Poster.png",
     "mediaType": "image",
     "categories": [
@@ -938,7 +989,7 @@ export const eventsData = [
     "originalFile": "Event - Yi Chennai Annual Day 2024.html",
     "date": "07/12/2024",
     "subtitleDate": "7 December 2024",
-    "image": "/assets/images/portfolio/Yi Annual day portfolio.png",
+    "image": "/assets/images/Events/Yi Annual day 2024/Yi annual day 2024 grp pic.png",
     "poster": "/assets/images/Events/Yi Annual day 2024/Yi Annual day poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -986,7 +1037,7 @@ export const eventsData = [
     "originalFile": "Event - Planting smiles.html",
     "date": "11/11/2024",
     "subtitleDate": "11th November 2024",
-    "image": "/assets/images/portfolio/planting smiles cover pic.png",
+    "image": "/assets/images/Events/Planting smiles/planting smiles 1.JPG",
     "poster": "/assets/images/Events/Planting smiles/planting smiles poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -1038,7 +1089,7 @@ export const eventsData = [
     "originalFile": "Event - Eco Arcade.html",
     "date": "20/10/2024",
     "subtitleDate": "20 October 2024",
-    "image": "/assets/images/portfolio/Eco arcade.png",
+    "image": "/assets/images/Events/Eco Arcade/2.jpg",
     "poster": "/assets/images/Events/Eco Arcade/1.png",
     "mediaType": "image",
     "categories": [
@@ -1091,7 +1142,7 @@ export const eventsData = [
     "originalFile": "Event - Yuvaneta'24.html",
     "date": "03/10/2024",
     "subtitleDate": "3rd October 2024",
-    "image": "/assets/images/portfolio/yuvaneta'24 cover pic.png",
+    "image": "/assets/images/Events/Yuvaneta'24/IMG_0124.JPG",
     "poster": "/assets/images/portfolio/yuvaneta'24.jpeg",
     "mediaType": "image",
     "categories": [
@@ -1140,7 +1191,7 @@ export const eventsData = [
     "originalFile": "Event-Eco Fest.html",
     "date": "24/09/2024",
     "subtitleDate": "24th September 2024",
-    "image": "/assets/images/portfolio/eco fest cover pic.png",
+    "image": "/assets/images/Events/ Eco Fest/DSC07726.jpg",
     "poster": "/assets/images/Events/ Eco Fest/Eco fest poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -1192,7 +1243,7 @@ export const eventsData = [
     "originalFile": "Event - CGT 5.0.html",
     "date": "18/08/2024",
     "subtitleDate": "18 August 2024",
-    "image": "/assets/images/portfolio/CGT 5.0.png",
+    "image": "/assets/images/Events/CGT 5.0 OUT/8.JPG",
     "poster": "/assets/images/Events/CGT 5.0 OUT/CGT 5.0 Cover.jpg",
     "mediaType": "image",
     "categories": [
@@ -1234,7 +1285,7 @@ export const eventsData = [
     "originalFile": "Event - Walk Along 2.0.html",
     "date": "11/08/2024",
     "subtitleDate": "11 August 2024",
-    "image": "/assets/images/portfolio/Walk Along 2.0(1).png",
+    "image": "/assets/images/Events/Walk Along 2.0/WA-01.JPG",
     "poster": "/assets/images/Events/Walk Along 2.0/Walk Along 2.0.jpg",
     "mediaType": "image",
     "categories": [
@@ -1281,7 +1332,7 @@ export const eventsData = [
     "originalFile": "Event - CGT REC.html",
     "date": "25/07/2024",
     "subtitleDate": "25 July 2024",
-    "image": "/assets/images/portfolio/CGT 5.0 REC 1.png",
+    "image": "/assets/images/Events/CGT 5.0/CGT3.JPG",
     "poster": "/assets/images/Events/CGT 5.0/CGT 5.0.jpg",
     "mediaType": "image",
     "categories": [
@@ -1362,7 +1413,7 @@ export const eventsData = [
     "originalFile": "Event - Designify.html",
     "date": "17/05/2024",
     "subtitleDate": "17th May 2024",
-    "image": "/assets/images/portfolio/Designify.png",
+    "image": "/assets/images/Events/Designify/1.jpg",
     "poster": "/assets/images/Events/Designify/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -1411,7 +1462,7 @@ export const eventsData = [
     "originalFile": "Event - Puzzles2.0.html",
     "date": "05/05/2024",
     "subtitleDate": "5th May 2024",
-    "image": "/assets/images/portfolio/Puzzles 2.0.jpg",
+    "image": "/assets/images/Events/Puzzles 2.0/1.jpg",
     "poster": "/assets/images/Events/Puzzles 2.0/Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -1460,7 +1511,7 @@ export const eventsData = [
     "originalFile": "Event - Polish1.0 .html",
     "date": "11/04/2024",
     "subtitleDate": "11th April 2024",
-    "image": "/assets/images/portfolio/Polish.jpg",
+    "image": "/assets/images/Events/Polish/p1.jpg",
     "poster": "/assets/images/Events/Polish/polish.jpg",
     "mediaType": "image",
     "categories": [
@@ -1511,7 +1562,7 @@ export const eventsData = [
     "originalFile": "Event - A Road to Safety.html",
     "date": "26/02/2024",
     "subtitleDate": "26 February 2024",
-    "image": "/assets/images/portfolio/Road to safety.png",
+    "image": "/assets/images/Events/Road to safety/1.png",
     "poster": "/assets/images/Events/Road to safety/poster.png",
     "mediaType": "image",
     "categories": [
@@ -1564,7 +1615,7 @@ export const eventsData = [
     "originalFile": "Event - Eco Champs.html",
     "date": "26/02/2024",
     "subtitleDate": "26 February 2024",
-    "image": "/assets/images/portfolio/Eco champs.png",
+    "image": "/assets/images/Events/Eco champs/4.png",
     "poster": "/assets/images/Events/Eco champs/poster .png",
     "mediaType": "image",
     "categories": [
@@ -1617,7 +1668,7 @@ export const eventsData = [
     "originalFile": "Event - Beyond the Resume.html",
     "date": "25/02/2024",
     "subtitleDate": "25 February 2024",
-    "image": "/assets/images/portfolio/Beyond The Resume.jpg",
+    "image": "/assets/images/Events/Beyond the resume/d12.jpeg",
     "poster": "/assets/images/Events/Beyond the resume/Poster 1.jpg",
     "mediaType": "image",
     "categories": [
@@ -1670,7 +1721,7 @@ export const eventsData = [
     "originalFile": "Event - Tune Your Groove.html",
     "date": "17/02/2024",
     "subtitleDate": "17 February 2024",
-    "image": "/assets/images/portfolio/Tune your Groove.jpg",
+    "image": "/assets/images/Events/Tune Your Groove/1.jpg",
     "poster": "/assets/images/Events/Tune Your Groove/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -1726,7 +1777,7 @@ export const eventsData = [
     "originalFile": "Event - Spread Smiles.html",
     "date": "04/02/2024",
     "subtitleDate": "04 February 2024",
-    "image": "/assets/images/portfolio/Spread Smiles.jpg",
+    "image": "/assets/images/Events/Spread Smiles/2.jpg",
     "poster": "/assets/images/Events/Spread Smiles/Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -1776,7 +1827,7 @@ export const eventsData = [
     "originalFile": "Event - Retro Kadhaigal.html",
     "date": "04/02/2024",
     "subtitleDate": "04 February 2024",
-    "image": "/assets/images/portfolio/retro kadhaigal1.jpg",
+    "image": "/assets/images/Events/Retro Kadhaigal/2.jpg",
     "poster": "/assets/images/Events/Retro Kadhaigal/Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -1825,7 +1876,7 @@ export const eventsData = [
     "originalFile": "Event - Smash 2.0.html",
     "date": "28/01/2024",
     "subtitleDate": "28 January 2024",
-    "image": "/assets/images/portfolio/Smash 2.0.png",
+    "image": "/assets/images/Events/Smash 2.0/img 5.jpg",
     "poster": "/assets/images/Events/Smash 2.0/Poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -1876,7 +1927,7 @@ export const eventsData = [
     "originalFile": "Event - Pongal pandigai.html",
     "date": "18/01/2024",
     "subtitleDate": "18 January 2024",
-    "image": "/assets/images/portfolio/pongal pandigai.png",
+    "image": "/assets/images/Events/Pongal pandigai/img 1.jpg",
     "poster": "/assets/images/Events/Pongal pandigai/poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -1936,7 +1987,7 @@ export const eventsData = [
     "originalFile": "Event - Yi Chennai Annual Day 2023.html",
     "date": "07/12/2023",
     "subtitleDate": "7 December 2023",
-    "image": "/assets/images/portfolio/yia23.jpeg",
+    "image": "/assets/images/Events/Yi Annual Day 2023/21.jpeg",
     "poster": "/assets/images/Events/Yi Annual Day 2023/poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -1985,7 +2036,7 @@ export const eventsData = [
     "originalFile": "Event - Akshaya Patra3.0.html",
     "date": "05/11/2023",
     "subtitleDate": "5 November 2023",
-    "image": "/assets/images/portfolio/AP3.mp4",
+    "image": "/assets/images/Events/Akshayapatra3.0/1.jpg",
     "poster": "/assets/images/team/tr12.jpg",
     "mediaType": "video",
     "categories": [
@@ -2034,7 +2085,7 @@ export const eventsData = [
     "originalFile": "Event - Build And Connect.html",
     "date": "27/10/2023",
     "subtitleDate": "27 October 2023",
-    "image": "/assets/images/portfolio/build and connect.jpg",
+    "image": "/assets/images/Events/Build And Connect/img 1.jpg",
     "poster": "/assets/images/team/build and connect(1).jpeg",
     "mediaType": "image",
     "categories": [
@@ -2082,7 +2133,7 @@ export const eventsData = [
     "originalFile": "Event - Instolutions 2.0.html",
     "date": "26/10/2023",
     "subtitleDate": "26 October 2023",
-    "image": "/assets/images/portfolio/instolutions2.0.jpeg",
+    "image": "/assets/images/Events/Instolutions 2.0/17.jpeg",
     "poster": "/assets/images/Events/Instolutions 2.0/poster.png",
     "mediaType": "image",
     "categories": [
@@ -2129,7 +2180,7 @@ export const eventsData = [
     "originalFile": "Event - Lumos.html",
     "date": "23/10/2023",
     "subtitleDate": "23 October 2023",
-    "image": "/assets/images/portfolio/lumos .jpg",
+    "image": "/assets/images/Events/lumos/1.jpg",
     "poster": "/assets/images/Events/lumos/lumos.jpg",
     "mediaType": "image",
     "categories": [
@@ -2182,7 +2233,7 @@ export const eventsData = [
     "originalFile": "Event - Yuvaneta23.html",
     "date": "26/09/2023",
     "subtitleDate": "26 September 2023",
-    "image": "/assets/images/portfolio/yuvaneta23.jpg",
+    "image": "/assets/images/Events/Yuvaneta23/1.jpeg",
     "poster": "/assets/images/Events/Yuvaneta23/poster.png",
     "mediaType": "image",
     "categories": [
@@ -2235,7 +2286,7 @@ export const eventsData = [
     "originalFile": "Event - Kick 1.0.html",
     "date": "03/09/2023",
     "subtitleDate": "3 September 2023",
-    "image": "/assets/images/portfolio/Kick 1.0.png",
+    "image": "/assets/images/Events/Kick 1.0/Kick 1.0 Report.4.1.png",
     "poster": "/assets/images/Events/Kick 1.0/poster.png",
     "mediaType": "image",
     "categories": [
@@ -2284,7 +2335,7 @@ export const eventsData = [
     "originalFile": "Event - Chennai got talent 4.0.html",
     "date": "25/08/2023",
     "subtitleDate": "25 August 2023",
-    "image": "/assets/images/portfolio/chennaigottalent4.0.JPG",
+    "image": "/assets/images/Events/cgt 4.0/1.JPG",
     "poster": "/assets/images/Events/cgt 4.0/cgt 4.0.jpg",
     "mediaType": "image",
     "categories": [
@@ -2333,7 +2384,7 @@ export const eventsData = [
     "originalFile": "Event - Adanga Maru.html",
     "date": "21/08/2023",
     "subtitleDate": "21 August 2023",
-    "image": "/assets/images/portfolio/adanga maru.JPG",
+    "image": "/assets/images/Events/Adanga Maru/1.jpg",
     "poster": "/assets/images/Events/Adanga Maru/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2380,7 +2431,7 @@ export const eventsData = [
     "originalFile": "Event - Walk Along.html",
     "date": "20/08/2023",
     "subtitleDate": "20 August 2023",
-    "image": "/assets/images/portfolio/walkalong.JPG",
+    "image": "/assets/images/Events/Walk Along/1.JPG",
     "poster": "/assets/images/Events/Walk Along/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2429,7 +2480,7 @@ export const eventsData = [
     "originalFile": "Event - Future youth.html",
     "date": "07/08/2023",
     "subtitleDate": "07 August 2023",
-    "image": "/assets/images/portfolio/future youth.jpg",
+    "image": "/assets/images/Events/The future youth/1.jpg",
     "poster": "/assets/images/Events/The future youth/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2478,7 +2529,7 @@ export const eventsData = [
     "originalFile": "Event - Future3.0.html",
     "date": "05/08/2023",
     "subtitleDate": "05 August 2023",
-    "image": "/assets/images/portfolio/future3.0.jpg",
+    "image": "/assets/images/Events/The future 3.0/1.jpg",
     "poster": "/assets/images/Events/The future 3.0/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2527,7 +2578,7 @@ export const eventsData = [
     "originalFile": "Event - Redefining Red.html",
     "date": "21/07/2023",
     "subtitleDate": "21 July 2023",
-    "image": "/assets/images/portfolio/redefining red.jpg",
+    "image": "/assets/images/Events/redefining red/1.jpg",
     "poster": "/assets/images/Events/redefining red/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2576,7 +2627,7 @@ export const eventsData = [
     "originalFile": "Event - Cater the canines.html",
     "date": "15/07/2023",
     "subtitleDate": "15 July 2023",
-    "image": "/assets/images/portfolio/cater the canines.jpg",
+    "image": "/assets/images/Events/cater the canines/1.jpg",
     "poster": "/assets/images/Events/cater the canines/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2616,7 +2667,7 @@ export const eventsData = [
     "originalFile": "Event - Teestories3.0.html",
     "date": "12/06/2023",
     "subtitleDate": "12 June 2023",
-    "image": "/assets/images/portfolio/teestories.jpg",
+    "image": "/assets/images/Events/Tee Stories/5.jpg",
     "poster": "/assets/images/team/tr10.jpeg",
     "mediaType": "image",
     "categories": [
@@ -2662,7 +2713,7 @@ export const eventsData = [
     "originalFile": "Event - Seesha.html",
     "date": "02/05/2023",
     "subtitleDate": "2 May 2023",
-    "image": "/assets/images/portfolio/seesha.jpg",
+    "image": "/assets/images/Events/seesha/1.png",
     "poster": "/assets/images/team/Seesha.jpeg",
     "mediaType": "image",
     "categories": [
@@ -2711,7 +2762,7 @@ export const eventsData = [
     "originalFile": "Event - Pawsitivity2.0.html",
     "date": "30/04/2023",
     "subtitleDate": "30 April 2023",
-    "image": "/assets/images/portfolio/pawsitivity.jpg",
+    "image": "/assets/images/Events/Pawsitivity/1.png",
     "poster": "/assets/images/Events/Pawsitivity/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2760,7 +2811,7 @@ export const eventsData = [
     "originalFile": "Event - Puzzles.html",
     "date": "30/04/2023",
     "subtitleDate": "30 April 2023",
-    "image": "/assets/images/portfolio/puzzles.jpg",
+    "image": "/assets/images/Events/Puzzles/1.png",
     "poster": "/assets/images/Events/Puzzles/poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -2809,7 +2860,7 @@ export const eventsData = [
     "originalFile": "Event - Y20.html",
     "date": "24/04/2023",
     "subtitleDate": "24 April 2023",
-    "image": "/assets/images/portfolio/Y20.jpg",
+    "image": "/assets/images/Events/y20/10.png",
     "poster": "/assets/images/Events/y20/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2842,7 +2893,7 @@ export const eventsData = [
     "originalFile": "Event - Green Thumbs.html",
     "date": "23/04/2023",
     "subtitleDate": "23 April 2023",
-    "image": "/assets/images/portfolio/greenthumbs.jpg",
+    "image": "/assets/images/Events/Green Thumbs/1.png",
     "poster": "/assets/images/team/gt.jpeg",
     "mediaType": "image",
     "categories": [
@@ -2891,7 +2942,7 @@ export const eventsData = [
     "originalFile": "Event - Dakshin23.html",
     "date": "09/04/2023",
     "subtitleDate": "09 April 2023 & 10 April 2023",
-    "image": "/assets/images/portfolio/dakshin23.jpg",
+    "image": "/assets/images/Events/Dakshin23/5.jpg",
     "poster": "/assets/images/Events/Dakshin23/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -2936,7 +2987,7 @@ export const eventsData = [
     "originalFile": "Event - The Untold Story.html",
     "date": "11/03/2023",
     "subtitleDate": "11 March 2022",
-    "image": "/assets/images/portfolio/theuntoldstory.jpg",
+    "image": "/assets/images/Events/The untold story/1.png",
     "poster": "/assets/images/team/tr6.jpg",
     "mediaType": "image",
     "categories": [
@@ -2981,7 +3032,7 @@ export const eventsData = [
     "originalFile": "Event - Enlighten the enroute.html",
     "date": "21/02/2023",
     "subtitleDate": "21 February 2023",
-    "image": "/assets/images/portfolio/enlightentheenroute.jpg",
+    "image": "/assets/images/Events/Enlighten the enroute/1.png",
     "poster": "/assets/images/team/tr4.jpg",
     "mediaType": "image",
     "categories": [
@@ -3030,7 +3081,7 @@ export const eventsData = [
     "originalFile": "Event - Ink a Life.html",
     "date": "18/02/2023",
     "subtitleDate": "18 February 2023 - Present",
-    "image": "/assets/images/portfolio/inkalife.jpg",
+    "image": "/assets/images/Events/ink a life/1.png",
     "poster": "/assets/images/Events/ink a life/poster.jpeg",
     "mediaType": "image",
     "categories": [
@@ -3079,7 +3130,7 @@ export const eventsData = [
     "originalFile": "Event - Road Revive.html",
     "date": "22/01/2023",
     "subtitleDate": "22 January 2023",
-    "image": "/assets/images/portfolio/roadrevive.jpg",
+    "image": "/assets/images/Events/Road revive/1.png",
     "poster": "/assets/images/team/tr1.jpeg",
     "mediaType": "image",
     "categories": [
@@ -3132,7 +3183,7 @@ export const eventsData = [
     "originalFile": "Event - Yi Chennai Annual Day.html",
     "date": "17/12/2022",
     "subtitleDate": "17 December 2022",
-    "image": "/assets/images/portfolio/yiannualday.jpg",
+    "image": "/assets/images/Events/Yi Annual Day/1.jpg",
     "poster": "/assets/images/Events/Yi Annual Day/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3163,7 +3214,7 @@ export const eventsData = [
     "originalFile": "Event - Akshaya Patra2.0.html",
     "date": "20/11/2022",
     "subtitleDate": "20 November 2022",
-    "image": "/assets/images/portfolio/akshayapatra.jpg",
+    "image": "/assets/images/Events/Akshayapatra 2.0/1 (1).png",
     "poster": "/assets/images/team/tr2.jpg",
     "mediaType": "image",
     "categories": [
@@ -3252,7 +3303,7 @@ export const eventsData = [
     "originalFile": "Event - Lilliput leads.html",
     "date": "30/10/2022",
     "subtitleDate": "30 October 2023",
-    "image": "/assets/images/portfolio/lilliputleads.jpg",
+    "image": "/assets/images/Events/lilliput leads/1.png",
     "poster": "/assets/images/team/tr3.jpg",
     "mediaType": "image",
     "categories": [
@@ -3342,7 +3393,7 @@ export const eventsData = [
     "originalFile": "Event - Pawsitivity1.0.html",
     "date": "15/05/2022",
     "subtitleDate": "15 May 2022",
-    "image": "/assets/images/portfolio/pawsitivity 1.0.jpg",
+    "image": "/assets/images/Events/Pawsitivity 1.0/1.jpg",
     "poster": "/assets/images/team/pawsitivity 1.0.jpg",
     "mediaType": "image",
     "categories": [
@@ -3390,7 +3441,7 @@ export const eventsData = [
     "originalFile": "Event - Smash.html",
     "date": "10/04/2022",
     "subtitleDate": "10 April 2022",
-    "image": "/assets/images/portfolio/smash.jpg",
+    "image": "/assets/images/Events/Smash/1.jpg",
     "poster": "/assets/images/Events/Smash/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3481,7 +3532,7 @@ export const eventsData = [
     "originalFile": "Event - Walk for water.html",
     "date": "20/03/2022",
     "subtitleDate": "20 March 2022",
-    "image": "/assets/images/portfolio/walkforwater.jpg",
+    "image": "/assets/images/Events/Walk for water/1.jpg",
     "poster": "/assets/images/Events/Walk for water/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3527,7 +3578,7 @@ export const eventsData = [
     "originalFile": "Event - Pavithram.html",
     "date": "14/03/2022",
     "subtitleDate": "14 March 2022",
-    "image": "/assets/images/portfolio/pavithram.jpg",
+    "image": "/assets/images/Events/Pavithram/bliss.png",
     "poster": "/assets/images/Events/Pavithram/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3609,7 +3660,7 @@ export const eventsData = [
     "originalFile": "Event - Voicing the whispers.html",
     "date": "06/03/2022",
     "subtitleDate": "06 March 2022",
-    "image": "/assets/images/portfolio/voicingthewhispers.jpg",
+    "image": "/assets/images/Events/Voicing the Whisper/1.jpg",
     "poster": "/assets/images/Events/Voicing the Whisper/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3654,7 +3705,7 @@ export const eventsData = [
     "originalFile": "Event - Puthuyirppu.html",
     "date": "13/02/2022",
     "subtitleDate": "4 February 2022",
-    "image": "/assets/images/portfolio/puthuyirppu.jpg",
+    "image": "/assets/images/Events/Puthuyirppu/1.jpg",
     "poster": "/assets/images/Events/Puthuyirppu/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3696,7 +3747,7 @@ export const eventsData = [
     "originalFile": "Event - Elevations.html",
     "date": "18/01/2022 - 23/01/2022",
     "subtitleDate": "22/01/2023 & 23/01/2022",
-    "image": "/assets/images/portfolio/elevations.jpg",
+    "image": "/assets/images/Events/Elevations/1.jpg",
     "poster": "/assets/images/Events/Elevations/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3744,7 +3795,7 @@ export const eventsData = [
     "originalFile": "Event - entrevista.html",
     "date": "16/01/2022",
     "subtitleDate": "16 January 2022",
-    "image": "/assets/images/portfolio/entrevista.jpg",
+    "image": "/assets/images/Events/entrevista/1.jpg",
     "poster": "/assets/images/Events/entrevista/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3789,7 +3840,7 @@ export const eventsData = [
     "originalFile": "Event - Redeem Your Path.html",
     "date": "10/01/2022 - 16/01/2022",
     "subtitleDate": "10 January 2022 - 16 January 2022",
-    "image": "/assets/images/portfolio/redeemyourpath.jpg",
+    "image": "/assets/images/Events/Redeem your path/1.jpg",
     "poster": "/assets/images/Events/Redeem your path/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3874,7 +3925,7 @@ export const eventsData = [
     "originalFile": "Event - exordium.html",
     "date": "26/12/2021",
     "subtitleDate": "26 December 2021",
-    "image": "/assets/images/portfolio/exordium.jpg",
+    "image": "/assets/images/Events/exordium/antishipwreck.png",
     "poster": "/assets/images/Events/exordium/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -3961,7 +4012,7 @@ export const eventsData = [
     "originalFile": "Event - aranya.html",
     "date": "02/10/2021",
     "subtitleDate": "2 October 2021",
-    "image": "/assets/images/portfolio/aranya.jpg",
+    "image": "/assets/images/Events/aranya/1.jpg",
     "poster": "/assets/images/Events/aranya/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -4010,7 +4061,7 @@ export const eventsData = [
     "originalFile": "Event - poshak.html",
     "date": "05/09/2021 - 26/09/2021",
     "subtitleDate": "1 September 2021 - 7 September 2021",
-    "image": "/assets/images/portfolio/poshak.jpg",
+    "image": "/assets/images/Events/poshak/poshak1.jpg",
     "poster": "/assets/images/Events/poshak/poster.jpg",
     "mediaType": "image",
     "categories": [
@@ -4097,7 +4148,7 @@ export const eventsData = [
     "originalFile": "Event - Ascensions.html",
     "date": "25/10/2020",
     "subtitleDate": "25 October 2020",
-    "image": "/assets/images/portfolio/ascensions.png",
+    "image": "/assets/images/Events/Ascensions/a1.png",
     "poster": "/assets/images/Events/Ascensions/postera.png",
     "mediaType": "image",
     "categories": [

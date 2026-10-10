@@ -7,9 +7,13 @@ import { ensureWowInitialized, refreshWowForContainer } from "../../utils/wowSpa
  * Renders legacy main column HTML (page-banner → content) inside the app shell.
  * @param {{ title?: string, html: string, afterInject?: (root: HTMLElement) => (void | (() => void)), parallax?: boolean }} props
  */
+import { normalizeLegacyHtml } from "../../utils/legacyHtml.js"
+
 function InjectedMainColumn({ title, html, afterInject, parallax = true }) {
   const ref = useRef(null)
   const navigate = useNavigate()
+
+  const sanitizedHtml = normalizeLegacyHtml(html)
 
   useLayoutEffect(() => {
     if (title) document.title = title
@@ -119,7 +123,7 @@ function InjectedMainColumn({ title, html, afterInject, parallax = true }) {
     <div
       ref={ref}
       className="spa-injected-root premium-page-shell w-full overflow-x-auto"
-      dangerouslySetInnerHTML={{ __html: html }}
+      dangerouslySetInnerHTML={{ __html: sanitizedHtml }}
     />
   )
 }

@@ -161,6 +161,24 @@
   object-fit: cover;
 }
 
+.portfolio-style-one .img-holder,
+.portfolio-item .img-holder {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10 !important;
+  width: 100% !important;
+}
+
+.portfolio-style-one .img-holder img,
+.portfolio-style-one .img-holder video,
+.portfolio-item .img-holder img,
+.portfolio-item .img-holder video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
 .premium-page-shell .team-item .text h4,
 .premium-page-shell .team-item .text p,
 .premium-page-shell .portfolio-style-one .text h3,

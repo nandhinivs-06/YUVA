@@ -26,9 +26,29 @@ const ICON_FILE_BY_CATEGORY = {
   "cat-12": "other.png",
 }
 
+function getCardImage(item) {
+  if (!item) return ""
+  const rawImage = item.image || ""
+
+  // If item has real photos in its gallery, always prefer gallery[0] over portfolio template graphics
+  if (item.gallery && item.gallery.length > 0) {
+    const firstGalleryPic = item.gallery[0]
+    if (firstGalleryPic) {
+      return `/${firstGalleryPic.replace(/^\/?/, "")}`
+    }
+  }
+
+  // Fallback to poster or image
+  if (item.poster) {
+    return `/${item.poster.replace(/^\/?/, "")}`
+  }
+
+  return `/${rawImage.replace(/^\/?/, "")}`
+}
+
 function InitiativeCard({ item, initiativesMode = false }) {
   const to = `/events/${item.slug}`
-  const mediaPath = `/${item.image.replace(/^\/?/, "")}`
+  const mediaPath = getCardImage(item)
   const catClass = (item.categories || []).join(" ")
   const iconCategory = item.categories?.[0] || "cat-12"
   const iconFile = ICON_FILE_BY_CATEGORY[iconCategory] || ICON_FILE_BY_CATEGORY["cat-12"]
@@ -44,13 +64,13 @@ function InitiativeCard({ item, initiativesMode = false }) {
         whileHover={{ scale: 1.04, y: -6 }}
         transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
       >
-        <div className="img-holder">
+        <div className="img-holder relative w-full aspect-[16/10] overflow-hidden rounded-xl bg-slate-100">
           {item.mediaType === "video" ? (
-            <video autoPlay loop muted playsInline>
+            <video autoPlay loop muted playsInline className="w-full h-full object-cover">
               <source src={mediaPath} type="video/mp4" />
             </video>
           ) : (
-            <img src={mediaPath} alt="Img" loading="lazy" />
+            <img src={mediaPath} alt={item.title} loading="lazy" className="w-full h-full object-cover" />
           )}
           <Link
             to={to}

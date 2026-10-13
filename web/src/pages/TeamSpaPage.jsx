@@ -87,17 +87,20 @@ function injectPremiumTeamStyles(srcDoc) {
         z-index: -1;
       }
 
-      .team-area-v2 .row {
+      .team-area-v2 .row,
+      .portfolio-area-v2 .row {
         display: flex;
         flex-wrap: wrap;
       }
 
-      .team-area-v2 .row > [class*="col-"] {
+      .team-area-v2 .row > [class*="col-"],
+      .portfolio-area-v2 .row > [class*="col-"] {
         display: flex;
         flex-direction: column;
       }
 
-      .team-area-v2 .team-item {
+      .team-area-v2 .team-item,
+      .portfolio-area-v2 .team-item {
         display: flex;
         flex-direction: column;
         flex: 1 1 auto;
@@ -111,27 +114,38 @@ function injectPremiumTeamStyles(srcDoc) {
         transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
       }
 
-      .team-area-v2 .team-item:hover {
+      .team-area-v2 .team-item:hover,
+      .portfolio-area-v2 .team-item:hover {
         transform: translateY(-8px);
         border-color: rgba(125, 109, 235, 0.42);
         box-shadow: 0 26px 52px -30px rgb(42 54 113 / 0.5);
       }
 
-      .team-area-v2 .team-item .img-holder {
+      .team-area-v2 .team-item .img-holder,
+      .portfolio-area-v2 .team-item .img-holder {
         flex-shrink: 0;
+        width: 100%;
+        aspect-ratio: 4 / 4.75;
+        overflow: hidden;
+        background: #f1f4f9;
       }
 
-      .team-area-v2 .team-item .img-holder img {
+      .team-area-v2 .team-item .img-holder img,
+      .portfolio-area-v2 .team-item .img-holder img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
         display: block;
         transition: transform 0.45s ease;
       }
 
-      .team-area-v2 .team-item:hover .img-holder img {
+      .team-area-v2 .team-item:hover .img-holder img,
+      .portfolio-area-v2 .team-item:hover .img-holder img {
         transform: scale(1.03);
       }
 
-      .team-area-v2 .team-item .text {
+      .team-area-v2 .team-item .text,
+      .portfolio-area-v2 .team-item .text {
         flex: 1 1 auto;
         display: flex;
         flex-direction: column;

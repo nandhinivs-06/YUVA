@@ -85,9 +85,10 @@ const overlay2 = document.getElementById("overlay2");
 const overlay3 = document.getElementById("overlay3");
 const overlay4 = document.getElementById("overlay4");
 const overlay5 = document.getElementById("overlay5");
+const overlay6 = document.getElementById("overlay6");
 const closeBtn = document.querySelector(".close-btn");
 `
-  inner = inner.replace(/\b(overlay[1-5])\.addEventListener/g, "$1 && $1.addEventListener")
+  inner = inner.replace(/\b(overlay[1-6])\.addEventListener/g, "$1 && $1.addEventListener")
   return prefix + inner
 }
 

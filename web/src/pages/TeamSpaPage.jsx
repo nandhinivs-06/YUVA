@@ -87,7 +87,22 @@ function injectPremiumTeamStyles(srcDoc) {
         z-index: -1;
       }
 
+      .team-area-v2 .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .team-area-v2 .row > [class*="col-"] {
+        display: flex;
+        flex-direction: column;
+      }
+
       .team-area-v2 .team-item {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        height: calc(100% - 55px);
+        margin-bottom: 55px;
         border-radius: 1.05rem;
         overflow: hidden;
         border: 1px solid rgba(191, 205, 224, 0.72);
@@ -102,6 +117,10 @@ function injectPremiumTeamStyles(srcDoc) {
         box-shadow: 0 26px 52px -30px rgb(42 54 113 / 0.5);
       }
 
+      .team-area-v2 .team-item .img-holder {
+        flex-shrink: 0;
+      }
+
       .team-area-v2 .team-item .img-holder img {
         width: 100%;
         display: block;
@@ -112,9 +131,42 @@ function injectPremiumTeamStyles(srcDoc) {
         transform: scale(1.03);
       }
 
-      .team-area-v2 .team-item .text h4,
-      .team-area-v2 .team-item .text p {
+      .team-area-v2 .team-item .text {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        padding: 26px 14px 22px;
+      }
+
+      .team-area-v2 .team-item .text h4 {
+        margin: 4px 0 8px 0;
+        min-height: 2.45rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         color: #13203b;
+        font-size: 1.38rem;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        line-height: 1.25;
+      }
+
+      .team-area-v2 .team-item .text h4 br {
+        display: none;
+      }
+
+      .team-area-v2 .team-item .text p.position {
+        margin: 0;
+        color: #13203b;
+        min-height: 2.85rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.35;
       }
 
       .team-area-v2 .portfolio-style-two .portfolio-hover,

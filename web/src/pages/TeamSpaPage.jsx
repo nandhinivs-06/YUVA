@@ -211,6 +211,191 @@ function injectPremiumTeamStyles(srcDoc) {
       .footer-area .social-nav a {
         color: #13203b;
       }
+
+      .overlay {
+        display: none;
+        position: fixed;
+        z-index: 99998;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(10, 16, 30, 0.75);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+      }
+
+      .pop {
+        display: none;
+        position: fixed;
+        z-index: 99999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 92vw;
+        max-width: 1240px;
+        height: 88vh;
+        max-height: 88vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 30px 24px 40px;
+        box-shadow: 0 25px 70px rgba(0, 0, 0, 0.45);
+        box-sizing: border-box;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .pop .team-area {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background: transparent;
+      }
+
+      .pop .team-area::before {
+        display: none !important;
+      }
+
+      .pop .container {
+        max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .pop .close-btn {
+        position: sticky;
+        top: 8px;
+        float: right;
+        width: 42px;
+        height: 42px;
+        line-height: 38px;
+        text-align: center;
+        background: #f1f4f9;
+        border: 1px solid rgba(19, 32, 59, 0.12);
+        border-radius: 50%;
+        color: #13203b;
+        font-size: 26px;
+        font-weight: 400;
+        cursor: pointer;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.25s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        margin-bottom: -42px;
+      }
+
+      .pop .close-btn:hover {
+        background: #ef4444;
+        color: #ffffff;
+        border-color: #ef4444;
+        transform: rotate(90deg) scale(1.05);
+      }
+
+      .pop .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .pop .row > [class*="col-"] {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .pop .team-item {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        height: calc(100% - 35px);
+        margin-bottom: 35px;
+        border-radius: 1rem;
+        overflow: hidden;
+        border: 1px solid rgba(191, 205, 224, 0.75);
+        background: linear-gradient(180deg, #ffffff 0%, #f7f9fd 100%);
+        box-shadow: 0 10px 25px -15px rgba(23, 39, 67, 0.35);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .pop .team-item:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 18px 36px -20px rgba(42, 54, 113, 0.4);
+      }
+
+      .pop .team-item .img-holder {
+        width: 100%;
+        aspect-ratio: 1 / 1.05;
+        overflow: hidden;
+        background: #f1f4f9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .pop .team-item .img-holder img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+        display: block;
+        transition: transform 0.4s ease;
+      }
+
+      .pop .team-item:hover .img-holder img {
+        transform: scale(1.04);
+      }
+
+      .pop .team-item .text {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        padding: 16px 12px 18px;
+      }
+
+      .pop .team-item .text h4 {
+        margin: 0 0 6px 0;
+        min-height: 2.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #13203b;
+        font-size: 1.15rem;
+        font-weight: 700;
+        line-height: 1.25;
+        text-align: center;
+      }
+
+      .pop .team-item .text h4 p,
+      .pop .team-item .text h4 a {
+        margin: 0;
+        padding: 0;
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-decoration: none;
+        display: inline;
+      }
+
+      .pop .team-item .text h4 br {
+        display: none;
+      }
+
+      .pop .team-item .text p.position {
+        margin: 0;
+        color: #4b5563;
+        font-size: 0.92rem;
+        font-weight: 500;
+        min-height: 2.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.3;
+      }
     </style>
   `
 
